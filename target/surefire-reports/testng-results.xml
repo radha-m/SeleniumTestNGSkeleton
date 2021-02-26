@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36852" started-at="2021-02-26T09:40:44Z" finished-at="2021-02-26T09:41:21Z">
+    <groups>
+    </groups>
+    <test name="Search Tests" duration-ms="35765" started-at="2021-02-26T09:40:44Z" finished-at="2021-02-26T09:41:20Z">
+      <class name="ProductSearch">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ProductSearch@2d901eb0]" name="setup" is-config="true" duration-ms="27375" started-at="2021-02-26T09:40:44Z" finished-at="2021-02-26T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="productSearchTest()[pri:0, instance:ProductSearch@2d901eb0]" name="productSearchTest" duration-ms="7574" started-at="2021-02-26T09:41:12Z" finished-at="2021-02-26T09:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ProductSearch@2d901eb0]" name="tearDown" is-config="true" duration-ms="619" started-at="2021-02-26T09:41:19Z" finished-at="2021-02-26T09:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ProductSearch -->
+    </test> <!-- Search Tests -->
+    <test name="Login Tests" duration-ms="36852" started-at="2021-02-26T09:40:44Z" finished-at="2021-02-26T09:41:21Z">
+      <class name="HomePageNavigation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomePageNavigation@6bbe85a8]" name="setup" is-config="true" duration-ms="27379" started-at="2021-02-26T09:40:44Z" finished-at="2021-02-26T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:HomePageNavigation@6bbe85a8]" name="loginTest" duration-ms="9176" started-at="2021-02-26T09:41:12Z" data-provider="getData" finished-at="2021-02-26T09:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HomePageNavigation@6bbe85a8]" name="tearDown" is-config="true" duration-ms="146" started-at="2021-02-26T09:41:21Z" finished-at="2021-02-26T09:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HomePageNavigation -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

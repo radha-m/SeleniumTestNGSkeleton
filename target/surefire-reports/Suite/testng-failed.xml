@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test name="Search Tests(failed)" parallel="tests">
+    <classes>
+      <class name="ProductSearch">
+        <methods>
+          <include name="productSearchTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ProductSearch -->
+      <class name="HomePageNavigation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HomePageNavigation -->
+    </classes>
+  </test> <!-- Search Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
